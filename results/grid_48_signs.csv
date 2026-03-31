@@ -1,0 +1,55 @@
+barthel_code,phoneme,type,notes
+006,a,vowel,allograph
+037,a,vowel,allograph
+044,a,vowel,allograph
+047,a,vowel,allograph
+054,a,vowel,allograph
+069,a,vowel,allograph
+070,a,vowel,allograph
+075,a,vowel,allograph
+091,a,vowel,allograph
+002,e,vowel,
+003,e,vowel,
+001,i,vowel,
+045,i,vowel,
+010,o,vowel,
+099,o,vowel,
+009,u,vowel,
+016,u,vowel,
+061,u,vowel,
+062,u,vowel,
+066,u,vowel,
+022,t,consonant,allograph
+063,t,consonant,allograph
+073,k,consonant,
+059,h,consonant,
+740,m,consonant,
+730,n,consonant,
+260,r,consonant,
+095,p,consonant,
+230,ng,consonant,velar nasal
+530,v,consonant,
+074,hua,syllabogram,rebus: fruit
+004,ra,syllabogram,
+005,ra,syllabogram,
+007,ra,syllabogram,
+025,ra,syllabogram,
+034,ra,syllabogram,
+041,ra,syllabogram,rebus: moon
+050,ma,syllabogram,
+076,ma,syllabogram,rebus: eye (mata)
+052,ki,syllabogram,
+027,ko,syllabogram,
+008,na,syllabogram,Grand Texte kinai x3
+060,ri,syllabogram,rebus: hand (rima)
+067,ri,syllabogram,
+028,ta,syllabogram,
+015,te,syllabogram,article
+084,ha,syllabogram,kill-shot oaha
+280,,special,glottal stop / prosodic pause
+200,,separator,word boundary (taxogramme)
+400,,separator,word boundary (taxogramme)
+000,,structural,marker
+660,,structural,marker
+700,,structural,marker
+901,,structural,marker

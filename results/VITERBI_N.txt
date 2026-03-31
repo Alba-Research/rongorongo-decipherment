@@ -1,0 +1,25 @@
+
+======================================================================
+TABLETTE N — TRADUCTION VITERBI
+======================================================================
+
+  Na1: there brilliant brilliant brilliant sun the of breast/cry «uo» sun the of breast/cry
+
+  Na2: [...] ~ «eua» look small lineage/dark there of small of
+
+  Na3: in small «iii» «iao» in ~ look true in small ~
+
+  Na4: [...] ~ it.is ~ small [...] [...] small rain rain small form(long) of
+
+  Na5: sky who/by that? move who/by? hey! who/by that
+
+  Nb1: [...] [...] [...] of [...] life? you «eua» «uo» the
+
+  Nb2: ~ and/with form/image result.of.form ~ towards of towards
+
+  Nb3: sun of yes? hey!? [v] [v] appearance dance scatter let!
+
+  Nb4: look «uo» [...] [...] purify of
+
+  Nb5: in «uai» breast/cry? «uau» of that brow/day
+

@@ -1,0 +1,18 @@
+# Corpus-derived vocabulary — words found in decoded rongorongo
+# that are not in any existing dictionary but follow Polynesian CV phonotactics
+# and appear 3+ times on 2+ tablets (or 5+ times on any tablet)
+
+uu	13	A,B,D,H,K,N,P,S
+oeu	7	B
+araa	7	C,H
+ute	5	A,H,P,Q
+urau	5	B,C,H,P
+ri	4	A,H,P
+oui	4	H,P,R
+aei	3	A,B
+amae	3	E,P
+ieai	3	G,K
+anoenae	3	H,P,Q
+uera	3	H,P,Q
+uraaraa	3	H,P,Q
+oiio	3	K,P,Q

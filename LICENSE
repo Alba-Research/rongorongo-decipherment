@@ -1,0 +1,11 @@
+This repository uses a dual license:
+
+## Code (scripts/)
+GNU General Public License v3.0 (GPL-3.0)
+See https://www.gnu.org/licenses/gpl-3.0.en.html
+
+## Data and Text (data/, results/, translations/, preprint/)
+Creative Commons Attribution 4.0 International (CC-BY 4.0)
+See https://creativecommons.org/licenses/by/4.0/
+
+Copyright (c) 2026 Julien Sivan / ALBA Research
