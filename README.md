@@ -4,11 +4,11 @@ A computational approach to deciphering rongorongo, the undeciphered script of E
 
 ## Summary
 
-This repository contains a 48-sign phonetic grid for rongorongo, derived through distributional analysis, brute-force testing, kill-shot validation, cross-tablet confirmation, and limited rebus cues. The grid is validated by four independent lines of evidence:
+This repository contains a proposed 48-sign phonetic grid for rongorongo, derived through distributional analysis, brute-force testing, kill-shot validation, cross-tablet confirmation, and limited rebus cues. The grid is validated by four complementary lines of evidence:
 
 - **Leave-one-family-out cross-validation**: combined p<0.001 (equivalent Z=4.65; 10 independent tablet families, 5000 permutations each, Englert-only dictionary — no cognates)
 - **Leave-one-tablet-out**: combined p<0.001 (equivalent Z=3.54; 13 classic tablets)
-- **Pozdniakov external validation**: 81% overlap with independently identified 52-glyph inventory (Pozdniakov & Pozdniakov 2007); 4/4 "arm glyphs" confirmed as vowels; frequency rank correlation rho=0.563, p<0.01
+- **Pozdniakov external concordance**: 81% overlap with independently identified 52-glyph inventory (Pozdniakov & Pozdniakov 2007); 4/4 "arm glyphs" confirmed as vowels; frequency rank correlation rho=0.563, p<0.01
 - **Robustness without cognates**: Signal strengthens when Polynesian cognates are removed (equivalent Z=5.88 tablet-out, Z=4.65 family-out)
 - **Coverage**: 93.6% on classic tablets (A-S), 85.9% full corpus (25 tablets, 18,275 glyphs)
 - **Particle proportion**: 31.1% in output vs 32.9% in real Rapa Nui texts
@@ -127,7 +127,7 @@ This is an **exploratory decipherment** (classification D on the Sproat scale). 
 
 If you use this work, please cite:
 
-> Sivan, J. (2026). A Computational Approach to Rongorongo: A 48-Sign Phonetic Grid Validated by Leave-One-Family-Out Cross-Validation and Pozdniakov External Concordance. ALBA Research. Preprint.
+> Sivan, J. (2026). A Computational Approach to Rongorongo: A 48-Sign Phonetic Grid Validated by Leave-One-Family-Out Cross-Validation and External Concordance with Pozdniakov (2007). ALBA Research. Preprint.
 
 ## License
 
