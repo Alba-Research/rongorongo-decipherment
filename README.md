@@ -4,12 +4,12 @@ A computational approach to deciphering rongorongo, the undeciphered script of E
 
 ## Summary
 
-This repository contains a 48-sign phonetic grid for rongorongo, derived through distributional analysis, simulated annealing, kill-shot validation, and rebus identification. The grid is validated by four independent lines of evidence:
+This repository contains a 48-sign phonetic grid for rongorongo, derived through distributional analysis, brute-force testing, kill-shot validation, cross-tablet confirmation, and limited rebus cues. The grid is validated by four independent lines of evidence:
 
-- **Leave-one-family-out cross-validation**: Fisher combined Z=4.65, p<0.001 (10 independent tablet families, 5000 permutations each, Englert-only dictionary — no cognates)
-- **Leave-one-tablet-out**: Fisher combined Z=3.54, p<0.001 (13 classic tablets)
+- **Leave-one-family-out cross-validation**: combined p<0.001 (equivalent Z=4.65; 10 independent tablet families, 5000 permutations each, Englert-only dictionary — no cognates)
+- **Leave-one-tablet-out**: combined p<0.001 (equivalent Z=3.54; 13 classic tablets)
 - **Pozdniakov external validation**: 81% overlap with independently identified 52-glyph inventory (Pozdniakov & Pozdniakov 2007); 4/4 "arm glyphs" confirmed as vowels; frequency rank correlation rho=0.563, p<0.01
-- **Robustness without cognates**: Signal strengthens when Polynesian cognates are removed (Z=5.88 tablet-out, Z=4.65 family-out)
+- **Robustness without cognates**: Signal strengthens when Polynesian cognates are removed (equivalent Z=5.88 tablet-out, Z=4.65 family-out)
 - **Coverage**: 93.6% on classic tablets (A-S), 85.9% full corpus (25 tablets, 18,275 glyphs)
 - **Particle proportion**: 31.1% in output vs 32.9% in real Rapa Nui texts
 
@@ -31,7 +31,7 @@ Each sign is classified by converging evidence:
 |-------|----------|-------|
 | **A** (near-certain) | Kill-shot confirmed + in Pozdniakov 52 + cross-tablet | 9 signs |
 | **B** (strong) | Kill-shot OR (Pozdniakov 52 + high cross-tablet frequency) | 31 signs |
-| **D** (speculative) | Brute-force only, not in Pozdniakov 52 | 7 signs |
+| **C** (speculative) | Brute-force only, not in Pozdniakov 52 | 7 signs |
 
 Confidence matrix: [`results/CONFIDENCE_MATRIX_v1.csv`](results/CONFIDENCE_MATRIX_v1.csv)
 
@@ -57,7 +57,7 @@ python scripts/translate_rongorongo.py --all       # All tablets summary
 
 ### Validation
 ```bash
-python scripts/robustness_checks.py        # Leave-one-out + random grilles
+python scripts/robustness_checks.py        # Leave-one-out + random grids
 python scripts/alba_rongorongo_family_out.py  # Leave-one-family-out
 python scripts/alba_rongorongo_pozdniakov.py  # Pozdniakov CV alternation + frequency
 ```
@@ -106,20 +106,22 @@ Bidirectional pass marks confidence: unmarked = both passes agree, `?` = uncerta
 
 ## Validation Summary
 
-| Test | Dictionary | Z-score | p-value | Result |
+*Note on "Englert-only + morphology" (9,653 words)*: This dictionary removes all Polynesian cognates (Maori, Hawaiian, Tahitian) and replaces them with productive morphological forms (causatives, nominalizations, reduplications) derived from attested Rapa Nui bases. The count exceeds the full dictionary (9,383) because morphological expansion generates more forms than the removed cognates.
+
+| Test | Dictionary | Z-equivalent | p-value | Result |
 |------|-----------|---------|---------|--------|
 | Leave-one-tablet-out | Full (9,383) | 3.54 | < 0.001 | *** |
-| Leave-one-tablet-out | Englert-only (9,653) | 5.88 | < 0.001 | *** |
+| Leave-one-tablet-out | Englert-only + morphology (9,653) | 5.88 | < 0.001 | *** |
 | Leave-one-family-out | Full (9,383) | 2.59 | < 0.01 | ** |
-| Leave-one-family-out | Englert-only (9,653) | 4.65 | < 0.001 | *** |
-| 100 random grilles | Full (9,383) | 1.47 | 0.08 | 92nd percentile |
+| Leave-one-family-out | Englert-only + morphology (9,653) | 4.65 | < 0.001 | *** |
+| 100 random grids | Full (9,383) | 1.47 | 0.08 | 92nd percentile |
 | Pozdniakov frequency | — | rho=0.563 | < 0.01 | ** |
 
 Families: {H,P,Q} (Grand Texte copies), {G,K} (shared passages), + 8 individual tablets.
 
 ## Status
 
-This is an **exploratory decipherment** (classification D on the Sproat scale). All phonetic values are hypotheses validated statistically but not yet peer-reviewed. The allograph system is massive (up to 9 variants per phoneme) — some assignments may be incorrect. 6.5% of the corpus remains undecoded.
+This is an **exploratory decipherment** (classification D on the Sproat scale). All phonetic values are hypotheses validated statistically but not yet peer-reviewed. The allograph system is massive (up to 9 variants per phoneme) — some assignments may be incorrect. 6.4% of the classic corpus remains undecoded.
 
 ## Citation
 
