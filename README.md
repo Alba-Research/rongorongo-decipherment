@@ -1,6 +1,6 @@
 # Rongorongo Decipherment — ALBA Grid v4
 
-A computational approach to deciphering rongorongo, the undeciphered script of Easter Island (Rapa Nui).
+A computational approach to deciphering rongorongo, the undeciphered script of Rapa Nui (Easter Island).
 
 ## Summary
 
@@ -80,7 +80,7 @@ python scripts/alba_rongorongo_pozdniakov.py  # Pozdniakov CV alternation + freq
 | R | Petit de Santiago | 647 | Cosmic path | 96.1% |
 | S | Grand de Vienne | 1,012 | Katabasis | 93.1% |
 
-Full translations with philological notes: [`translations/`](translations/)
+Proposed translations with philological notes: [`translations/`](translations/)
 
 ## Dictionary
 
@@ -121,7 +121,7 @@ Families: {H,P,Q} (Grand Texte copies), {G,K} (shared passages), + 8 individual 
 
 ## Status
 
-This is an **exploratory decipherment** (classification D on the Sproat scale). All phonetic values are hypotheses validated statistically but not yet peer-reviewed. The allograph system is massive (up to 9 variants per phoneme) — some assignments may be incorrect. 6.4% of the classic corpus remains undecoded.
+This is an **exploratory decipherment** (classification D on the Sproat scale). All phonetic values are hypotheses supported by statistical validation but not yet peer-reviewed. The allograph system is massive (up to 9 variants per phoneme) — some assignments may be incorrect. 6.4% of the classic corpus remains undecoded.
 
 ## Citation
 
