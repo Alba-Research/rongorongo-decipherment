@@ -136,4 +136,4 @@ If you use this work, please cite:
 
 ## Contact
 
-ALBA Research — [github.com/Alba-Research](https://github.com/Alba-Research)
+ALBA Research — [alba-project.org](https://alba-project.org) | [github.com/Alba-Research](https://github.com/Alba-Research)
