@@ -10,7 +10,7 @@ This repository contains a proposed 48-sign phonetic grid for rongorongo, derive
 - **Leave-one-tablet-out**: combined p<0.001 (equivalent Z=3.54; 13 classic tablets)
 - **Pozdniakov external concordance**: 81% overlap with independently identified 52-glyph inventory (Pozdniakov & Pozdniakov 2007); 4/4 "arm glyphs" confirmed as vowels; frequency rank correlation rho=0.563, p<0.01
 - **Robustness without cognates**: Signal strengthens when Polynesian cognates are removed (equivalent Z=5.88 tablet-out, Z=4.65 family-out)
-- **Coverage**: 93.6% on classic tablets (A-S), 85.9% full corpus (25 tablets, 18,275 glyphs)
+- **Coverage**: 93.6% on the 13 classic ritual tablets (A–S, excluding Staff I), 85.9% full corpus (25 tablets, 18,275 glyphs)
 - **Particle proportion**: 31.1% in output vs 32.9% in real Rapa Nui texts
 
 ## The 48-Sign Grid
@@ -30,7 +30,7 @@ Each sign is classified by converging evidence:
 | Level | Criteria | Count |
 |-------|----------|-------|
 | **A** (near-certain) | Kill-shot confirmed + in Pozdniakov 52 + cross-tablet | 9 signs |
-| **B** (strong) | Kill-shot OR (Pozdniakov 52 + high cross-tablet frequency) | 31 signs |
+| **B** (strong) | Kill-shot OR (Pozdniakov 52 + high cross-tablet frequency) | 32 signs |
 | **C** (speculative) | Brute-force only, not in Pozdniakov 52 | 7 signs |
 
 Confidence matrix: [`results/CONFIDENCE_MATRIX_v1.csv`](results/CONFIDENCE_MATRIX_v1.csv)

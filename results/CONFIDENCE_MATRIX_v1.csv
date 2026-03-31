@@ -42,6 +42,7 @@ barthel_code,alba_value,type,kill_shot,pozdniakov_52,cross_tablet_count,tablets_
 095,p,consonant,no,YES,11,A|B|C|D|E|G|H|P|Q|R|S,B
 099,o,vowel,no,YES,13,A|B|C|D|E|G|H|K|N|P|Q|R|S,B
 230,ng,consonant,no,no,8,A|B|G|H|P|Q|R|S,D
+280,(glottal),special,no,YES,13,A|B|C|D|E|G|H|K|N|P|Q|R|S,B
 260,r,consonant,no,no,12,A|B|C|D|E|G|H|K|P|Q|R|S,D
 530,v,consonant,no,YES,8,A|C|D|G|H|P|Q|S,B
 730,n,consonant,no,YES,13,A|B|C|D|E|G|H|K|N|P|Q|R|S,B
